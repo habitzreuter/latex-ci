@@ -1,0 +1,49 @@
+\documentclass[12pt]{article}
+
+% Print portuguese stuff correctly
+\usepackage[utf8]{inputenc}
+
+% Pretty links
+\usepackage{hyperref}
+
+% Space in first line of the paragraph
+\usepackage{indentfirst}
+
+% Math symbols
+\usepackage{amsmath, amssymb}
+\usepackage{bm}
+
+% Pictures configuration
+\usepackage{graphicx}
+\usepackage{float}
+
+% Dummy text generator
+\usepackage{lipsum}
+
+\title{\LaTeX{} Document Example}
+\author{Marco Antônio Habitzreuter}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This document's abstract.
+\end{abstract}
+
+\section{Introduction}
+Exemple citation \cite{debenedetti_supercooled_2003}.
+
+\section{Methodology}
+\lipsum
+
+\section{Results}
+\lipsum
+
+\section{Conclusions}
+\lipsum
+
+\bibliographystyle{abbrv}
+\bibliography{main}
+
+\end{document}
